@@ -46,14 +46,17 @@
         }
     }
     .clcbtn {
+        border-color: rgba(255, 255, 255, 0.80);
         background-color: rgba(255, 255, 255, 0.80);
         color: rgba(0, 0, 0, 0.80);
         &:hover, &:active {
             text-decoration: none;
+            border-color: #ffffff;
             background-color: #ffffff;
             color: #000000;
         }
         &.disabled, &[disabled] {
+            border-color: rgba(255, 255, 255, 0.40);
             background-color: rgba(255, 255, 255, 0.40);
             color: rgba(0, 0, 0, 0.40);
         }
@@ -158,13 +161,17 @@
         }
     }
     .clcbtn {
+        border-color: rgba(255, 255, 255, 0.80);
         background-color: rgba(255, 255, 255, 0.80);
         color: rgba(0, 0, 0, 0.80);
         &:hover, &:active {
+            text-decoration: none;
+            border-color: #ffffff;
             background-color: #ffffff;
             color: #000000;
         }
         &.disabled, &[disabled] {
+            border-color: rgba(255, 255, 255, 0.40);
             background-color: rgba(255, 255, 255, 0.40);
             color: rgba(0, 0, 0, 0.40);
         }
@@ -269,14 +276,17 @@
         }
     }
     .clcbtn {
+        border-color: rgba(0, 0, 0, 0.80);
         background-color: rgba(0, 0, 0, 0.80);
         color: rgba(255, 255, 255, 0.80);
         &:hover, &:active {
             text-decoration: none;
+            border-color: #000000;
             background-color: #000000;
             color: #ffffff;
         }
         &.disabled, &[disabled] {
+            border-color: rgba(0, 0, 0, 0.40);
             background-color: rgba(0, 0, 0, 0.40);
             color: rgba(255, 255, 255, 0.40);
         }

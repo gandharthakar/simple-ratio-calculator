@@ -43,15 +43,18 @@
     border-color: rgba(255, 255, 255, 0.22);
   }
   .clcbtn {
+    border-color: rgba(255, 255, 255, 0.8);
     background-color: rgba(255, 255, 255, 0.8);
     color: rgba(0, 0, 0, 0.8);
   }
   .clcbtn:hover, .clcbtn:active {
     text-decoration: none;
+    border-color: #ffffff;
     background-color: #ffffff;
     color: #000000;
   }
   .clcbtn.disabled, .clcbtn[disabled] {
+    border-color: rgba(255, 255, 255, 0.4);
     background-color: rgba(255, 255, 255, 0.4);
     color: rgba(0, 0, 0, 0.4);
   }
@@ -147,14 +150,18 @@
   border-color: rgba(255, 255, 255, 0.22);
 }
 [theme-mode=dark] .clcbtn {
+  border-color: rgba(255, 255, 255, 0.8);
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.8);
 }
 [theme-mode=dark] .clcbtn:hover, [theme-mode=dark] .clcbtn:active {
+  text-decoration: none;
+  border-color: #ffffff;
   background-color: #ffffff;
   color: #000000;
 }
 [theme-mode=dark] .clcbtn.disabled, [theme-mode=dark] .clcbtn[disabled] {
+  border-color: rgba(255, 255, 255, 0.4);
   background-color: rgba(255, 255, 255, 0.4);
   color: rgba(0, 0, 0, 0.4);
 }
@@ -250,15 +257,18 @@
   border-color: rgba(0, 0, 0, 0.22);
 }
 [theme-mode=light] .clcbtn {
+  border-color: rgba(0, 0, 0, 0.8);
   background-color: rgba(0, 0, 0, 0.8);
   color: rgba(255, 255, 255, 0.8);
 }
 [theme-mode=light] .clcbtn:hover, [theme-mode=light] .clcbtn:active {
   text-decoration: none;
+  border-color: #000000;
   background-color: #000000;
   color: #ffffff;
 }
 [theme-mode=light] .clcbtn.disabled, [theme-mode=light] .clcbtn[disabled] {
+  border-color: rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.4);
   color: rgba(255, 255, 255, 0.4);
 }
