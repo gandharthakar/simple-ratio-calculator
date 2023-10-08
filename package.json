@@ -1,0 +1,35 @@
+{
+  "name": "simple-ratio-calculator",
+  "version": "1.0.0",
+  "description": "This is very simple and basic ration calculator made with HTML, CSS & JavaScript, Using jQuery & SASS.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandharthakar/simple-ratio-calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gandharthakar/simple-ratio-calculator/issues"
+  },
+  "homepage": "https://github.com/gandharthakar/simple-ratio-calculator#readme",
+  "scripts": {
+    "compile-css": "sass scss/:css/ --style expanded",
+    "prefix-css": "postcss css/**/*.css -u autoprefixer -b 'last 100 versions' --map=false --dir css/",
+    "minify-css": "css-minify -d css/ -o css/",
+    "build-css": "npm-run-all compile-css prefix-css minify-css",
+    "watch": "nodemon --watch scss/ --ext scss --exec \"npm-run-all build-css\""
+  },
+  "author": "Gandhar Thakar",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "css-minify": "^2.0.0",
+    "nodemon": "^3.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.69.0"
+  },
+  "browserslist": [
+    "last 100 versions"
+  ]
+}

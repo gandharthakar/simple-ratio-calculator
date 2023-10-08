@@ -1,0 +1,319 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.error-message {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 600;
+    color: red;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 15px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.calc-box {
+    border: 2px solid rgba(0, 0, 0, 0.50);
+}
+
+.calc-header {
+    padding: 10px 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.50);
+}
+
+.heading {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.label-text {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.95);
+    font-size: 16px;
+    font-weight: 500;
+    &.def-mr-b {
+        margin-bottom: 5px;
+    }
+    &.dis-ib {
+        display: inline-block;
+    }
+}
+
+.calc-body {
+    padding: 15px 15px 0px 15px;
+}
+
+.input-pad {
+    padding-bottom: 20px;
+}
+
+.ratio-input-grid {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+}
+
+.midtext {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.input-field {
+    display: inline-block;
+    margin: 0px;
+    padding: 8px 15px;
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.95);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 0px;
+    transition: 0.5s;
+    &.input-responsive {
+        display: block;
+        width: 100%;
+    }
+    &:focus {
+        background-color: transparent;
+        color: #000000;
+        outline: 0px;
+        outline-offset: 0px;
+        outline-style: none;
+        outline-width: 0px;
+        box-shadow: none;
+    }
+    &.readonly, &[readonly] {
+        background-color: transparent;
+        color: #000000;
+    }
+    &.disabled, &[disabled] {
+        pointer-events: none;
+        background-color: transparent;
+        color: rgba(0, 0, 0, 0.22);
+        border-color: rgba(0, 0, 0, 0.22);
+    }
+}
+
+.clcbtn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.80);
+    margin: 0px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.80);
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 0.5s;
+    &.button-responsive {
+        display: block;
+        width: 100%;
+    }
+    &:hover, &:active {
+        text-decoration: none;
+        border-color: #000000;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    &.disabled, &[disabled] {
+        pointer-events: none;
+        border-color: rgba(0, 0, 0, 0.40);
+        background-color: rgba(0, 0, 0, 0.40);
+        color: rgba(255, 255, 255, 0.40);
+    }
+}
+
+.clcbtn-outlined {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.80);
+    margin: 0px;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: 0.5s;
+    &.button-responsive {
+        display: block;
+        width: 100%;
+    }
+    &:hover, &:active {
+        text-decoration: none;
+        border-color: #000000;
+        background-color: #000000;
+        color: #ffffff;
+    }
+    &.disabled, &[disabled] {
+        pointer-events: none;
+        border-color: rgba(0, 0, 0, 0.40);
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.40);
+    }   
+}
+
+.res-body {
+    border-top: 2px dashed rgba(0, 0, 0, 0.50);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.pad-1 {
+    padding-bottom: 0px;
+}
+
+.res-title {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.result-content {
+    padding-top: 5px;
+    & p {
+        display: block;
+        margin: 0px;
+        padding: 0px 0px 15px 0px;
+        color: rgba(0, 0, 0, 0.95);
+        font-size: 14px;
+        font-weight: 500;
+        &:last-child {
+            padding: 0px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .error-message {
+        font-size: 10px;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .label-text {
+        font-size: 14px;
+    }
+    .input-field {
+        font-size: 14px;
+    }
+    .clcbtn {
+        font-size: 14px;
+    }
+    .midtext {
+        padding-top: 4px;
+    }
+    .res-title {
+        font-size: 16px;
+    }
+    .result-content {
+        & p {
+            font-size: 12px;
+        }
+    }
+}
+
+// Toggle Theme Mode
+
+.tgltmod-opad {
+    padding-bottom: 15px;
+}
+
+.tgltmod {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+    & .legend-text {
+        display: inline-block;
+        margin: 0px;
+        padding: 0px;
+        color: rgba(0, 0, 0, 0.50);
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+.themmod-grid {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.80);
+}
+
+.themmod-gitem {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s;
+    & .svg-icon {
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    & .fill {
+        fill: rgba(0, 0, 0, 0.80);
+        transition: 0.5s;
+    }
+    & .stroke {
+        stroke: rgba(0, 0, 0, 0.80);
+        transition: 0.5s;
+    }
+    &:hover, &:active {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+    &.active {
+        background-color: #000000;
+        & .fill {
+            fill: #ffffff;
+        }
+        & .stroke {
+            stroke: #ffffff;
+        }
+    }
+    &.light-mode {
+        & .svg-icon {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

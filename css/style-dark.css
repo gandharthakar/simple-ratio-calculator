@@ -1,0 +1,313 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+  }
+  .calc-box {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  .calc-header {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+  }
+  .heading {
+    color: #ffffff;
+  }
+  .label-text {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .input-field {
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.95);
+  }
+  .input-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .input-field::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .input-field:-ms-input-placeholder { /* IE 10+ */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .input-field:-moz-placeholder { /* Firefox 18- */
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .input-field:focus {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  .input-field.readonly, .input-field[readonly] {
+    color: #ffffff;
+  }
+  .input-field.disabled, .input-field[disabled] {
+    color: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.22);
+  }
+  .clcbtn {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .clcbtn:hover, .clcbtn:active {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .clcbtn.disabled, .clcbtn[disabled] {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .clcbtn-outlined {
+    border-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .clcbtn-outlined:hover, .clcbtn-outlined:active {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+  }
+  .clcbtn-outlined.disabled, .clcbtn-outlined[disabled] {
+    border-color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.4);
+  }
+  .res-body {
+    border-top-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  .res-title {
+    color: #ffffff;
+  }
+  .result-content p {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .tgltmod .legend-text {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .themmod-grid {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  .themmod-gitem .fill {
+    fill: rgba(255, 255, 255, 0.8);
+  }
+  .themmod-gitem .stroke {
+    stroke: rgba(255, 255, 255, 0.8);
+  }
+  .themmod-gitem:hover, .themmod-gitem:active {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  .themmod-gitem.active {
+    background-color: #ffffff;
+  }
+  .themmod-gitem.active .fill {
+    fill: #000000;
+  }
+  .themmod-gitem.active .stroke {
+    stroke: #000000;
+  }
+}
+[theme-mode=dark] body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+[theme-mode=dark] .calc-box {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .calc-header {
+  border-bottom-color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .heading {
+  color: #ffffff;
+}
+[theme-mode=dark] .label-text {
+  color: rgba(255, 255, 255, 0.95);
+}
+[theme-mode=dark] .input-field {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.95);
+}
+[theme-mode=dark] .input-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .input-field::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .input-field:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .input-field:-moz-placeholder { /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .input-field:focus {
+  background-color: transparent;
+  color: #ffffff;
+}
+[theme-mode=dark] .input-field.readonly, [theme-mode=dark] .input-field[readonly] {
+  color: #ffffff;
+}
+[theme-mode=dark] .input-field.disabled, [theme-mode=dark] .input-field[disabled] {
+  color: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+[theme-mode=dark] .clcbtn {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+[theme-mode=dark] .clcbtn:hover, [theme-mode=dark] .clcbtn:active {
+  background-color: #ffffff;
+  color: #000000;
+}
+[theme-mode=dark] .clcbtn.disabled, [theme-mode=dark] .clcbtn[disabled] {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
+}
+[theme-mode=dark] .clcbtn-outlined {
+  border-color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+[theme-mode=dark] .clcbtn-outlined:hover, [theme-mode=dark] .clcbtn-outlined:active {
+  border-color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
+}
+[theme-mode=dark] .clcbtn-outlined.disabled, [theme-mode=dark] .clcbtn-outlined[disabled] {
+  border-color: rgba(255, 255, 255, 0.4);
+  color: rgba(255, 255, 255, 0.4);
+}
+[theme-mode=dark] .res-body {
+  border-top-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+[theme-mode=dark] .res-title {
+  color: #ffffff;
+}
+[theme-mode=dark] .result-content p {
+  color: rgba(255, 255, 255, 0.95);
+}
+[theme-mode=dark] .tgltmod .legend-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+[theme-mode=dark] .themmod-grid {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+[theme-mode=dark] .themmod-gitem .fill {
+  fill: rgba(255, 255, 255, 0.8);
+}
+[theme-mode=dark] .themmod-gitem .stroke {
+  stroke: rgba(255, 255, 255, 0.8);
+}
+[theme-mode=dark] .themmod-gitem:hover, [theme-mode=dark] .themmod-gitem:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+[theme-mode=dark] .themmod-gitem.active {
+  background-color: #ffffff;
+}
+[theme-mode=dark] .themmod-gitem.active .fill {
+  fill: #000000;
+}
+[theme-mode=dark] .themmod-gitem.active .stroke {
+  stroke: #000000;
+}
+
+[theme-mode=light] body {
+  background-color: transparent;
+  color: #000000;
+}
+[theme-mode=light] .calc-box {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+[theme-mode=light] .calc-header {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+[theme-mode=light] .heading {
+  color: #000000;
+}
+[theme-mode=light] .label-text {
+  color: rgba(0, 0, 0, 0.95);
+}
+[theme-mode=light] .input-field {
+  color: #000000;
+  border-color: rgba(0, 0, 0, 0.95);
+}
+[theme-mode=light] .input-field::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: initial;
+}
+[theme-mode=light] .input-field::-moz-placeholder { /* Firefox 19+ */
+  color: initial;
+}
+[theme-mode=light] .input-field:-ms-input-placeholder { /* IE 10+ */
+  color: initial;
+}
+[theme-mode=light] .input-field:-moz-placeholder { /* Firefox 18- */
+  color: initial;
+}
+[theme-mode=light] .input-field:focus {
+  background-color: transparent;
+  color: #000000;
+}
+[theme-mode=light] .input-field.readonly, [theme-mode=light] .input-field[readonly] {
+  color: #000000;
+}
+[theme-mode=light] .input-field.disabled, [theme-mode=light] .input-field[disabled] {
+  color: rgba(0, 0, 0, 0.22);
+  border-color: rgba(0, 0, 0, 0.22);
+}
+[theme-mode=light] .clcbtn {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+[theme-mode=light] .clcbtn:hover, [theme-mode=light] .clcbtn:active {
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+[theme-mode=light] .clcbtn.disabled, [theme-mode=light] .clcbtn[disabled] {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.4);
+}
+[theme-mode=light] .clcbtn-outlined {
+  border-color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 0.8);
+}
+[theme-mode=light] .clcbtn-outlined:hover, [theme-mode=light] .clcbtn-outlined:active {
+  border-color: #000000;
+  background-color: #000000;
+  color: #ffffff;
+}
+[theme-mode=light] .clcbtn-outlined.disabled, [theme-mode=light] .clcbtn-outlined[disabled] {
+  border-color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
+}
+[theme-mode=light] .res-body {
+  border-top-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+[theme-mode=light] .res-title {
+  color: #000000;
+}
+[theme-mode=light] .result-content p {
+  color: rgba(0, 0, 0, 0.95);
+}
+[theme-mode=light] .tgltmod .legend-text {
+  color: rgba(0, 0, 0, 0.5);
+}
+[theme-mode=light] .themmod-grid {
+  border-color: rgba(0, 0, 0, 0.8);
+}
+[theme-mode=light] .themmod-gitem .fill {
+  fill: rgba(0, 0, 0, 0.8);
+}
+[theme-mode=light] .themmod-gitem .stroke {
+  stroke: rgba(0, 0, 0, 0.8);
+}
+[theme-mode=light] .themmod-gitem:hover, [theme-mode=light] .themmod-gitem:active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+[theme-mode=light] .themmod-gitem.active {
+  background-color: #000000;
+}
+[theme-mode=light] .themmod-gitem.active .fill {
+  fill: #ffffff;
+}
+[theme-mode=light] .themmod-gitem.active .stroke {
+  stroke: #ffffff;
+}
+
+/*# sourceMappingURL=style-dark.css.map */
